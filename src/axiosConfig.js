@@ -1,4 +1,4 @@
 import axios from "axios";
 
 axios.defaults.baseURL = 
-process.env.NODE_ENV !== 'https://mybackendapp-6gt6.onrender.com/' ? 'http://localhost:5000': '/';
+process.env.NODE_ENV !==   'http://localhost:5000' ? 'https://mybackendapp-s4p3.onrender.com': '/';
